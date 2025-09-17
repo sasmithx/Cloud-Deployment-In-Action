@@ -57,6 +57,31 @@ This repository contains four projects:
 
 ---  
 
+## ⚙️ Development Environment
+
+In **development mode**:
+
+* **MySQL** and **MongoDB** run inside Docker containers with persistent volumes.
+* Backend services are started using the `dev` profile.
+
+### Start MySQL (with volume)
+
+```bash
+
+docker run -d --name mysql -v mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=mysql -p 15000:3306 mysql:lts
+```
+
+### Start MongoDB (with volume)
+
+```bash
+
+docker run --name mongo -v mongo-data:/data/db -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=mongo -p 16000:27017 -d mongo:latest
+```
+
+Both containers will persist data in their respective Docker volumes (`mysql-data`, `mongo-data`).
+
+---
+
 ## 📌 Built With
 
 ![Springboot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
