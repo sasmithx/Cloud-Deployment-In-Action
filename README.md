@@ -119,6 +119,14 @@ This project is licensed under the MIT License - see the [MIT License](LICENSE) 
 
 <br>
 
+## 📄 Student Information
+
+- **Name:** Sasmith Manwadu
+- **Registration Number:** 2301682042
+- **Email Address:** 888sasmithmanawadu@gmail.com
+
+<br>
+
 <div align="center">
   <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonaws&logoColor=FF9900" />
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
